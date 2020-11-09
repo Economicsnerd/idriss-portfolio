@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 export class Card extends Component {
     render() {
         return (
-            <div className="widecard">
-                
+            <div className="widecard">        
                     <div className="compdetfle">
                     <h3>{this.props.title}</h3>
                     <h4 className="secondtext">{this.props.where}</h4>
@@ -12,8 +11,7 @@ export class Card extends Component {
                     </div>
                     <div className="compdetfle">
                     <img src={this.props.schoolImg} alt="School logo" className="school-logo"/>
-                    </div>
-                
+                    </div>            
             </div>
         )
     }

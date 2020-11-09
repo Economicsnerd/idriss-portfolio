@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Card from '../components/Card'
-import hecLogo from '../img/HEC.jpg'
+import hecLogo from '../img/HEC.gif'
 import udemLogo from '../img/Udem.svg.png'
 
 export class Education extends Component {

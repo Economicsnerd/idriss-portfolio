@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './content/Home'
 import About from './content/About'
 import Education from './content/Education'
+import Skills from './content/Skills'
 import './App.css'
 
 const App = () => {
@@ -19,6 +20,9 @@ const App = () => {
         </Route>
         <Route exact path="/education">
           <Education />
+        </Route>
+        <Route exact path="/skills">
+          <Skills />
         </Route>
       </div>
     </Router>
