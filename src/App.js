@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './content/Home'
 import About from './content/About'
+import Education from './content/Education'
 import './App.css'
 
 const App = () => {
@@ -15,6 +16,9 @@ const App = () => {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/education">
+          <Education />
         </Route>
       </div>
     </Router>
