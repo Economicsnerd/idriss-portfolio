@@ -5,6 +5,7 @@ import Home from './content/Home'
 import About from './content/About'
 import Education from './content/Education'
 import Skills from './content/Skills'
+import Projects from './content/Projects'
 import './App.css'
 
 const App = () => {
@@ -23,6 +24,9 @@ const App = () => {
         </Route>
         <Route exact path="/skills">
           <Skills />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
       </div>
     </Router>
