@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import {
-    Link
-} from "react-router-dom";
+
 
 export class ProjectCard extends Component {
     render() {
@@ -13,9 +11,12 @@ export class ProjectCard extends Component {
                     <div className="card_content">
                         <h2 className="card_title">{this.props.title}</h2>
                         <p className="card_text">{this.props.description}</p>
-                        <button className="btn card_btn">
-                            <Link to={this.props.projectURL}>See Project</Link>
-                        </button>
+                        
+                            <a href={this.props.projectURL}>
+                            <button className="btn card_btn">
+                                See Project
+                                </button></a>
+                        
                     </div>                    
                 </div>
         )

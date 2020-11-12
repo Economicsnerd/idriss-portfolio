@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import ProjectCard from '../components/ProjectCard'
-import GithubFinder from '../img/GithubFinderfull.png'
-import openProjects from '../img/Open_Projects.png'
-import poochStagram from '../img/PoochStagram.png'
-import Snake from '../img/snake.jpg'
+import GithubFinder from '../img/GithubFinder.jpg'
+import openProjects from '../img/Open_Projects.jpg'
+import poochStagram from '../img/PoochStagram.jpg'
+import Snake from '../img/React-Snake.jpg'
 
 export class Projects extends Component {
     static defaultProps = {
