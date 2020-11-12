@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Card from '../components/Card'
 import hecLogo from '../img/HEC.gif'
-import udemLogo from '../img/Udem.svg.png'
+import udemLogo from '../img/udem.jpg'
 
 export class Education extends Component {
     render() {

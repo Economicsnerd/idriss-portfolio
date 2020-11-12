@@ -12,6 +12,7 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 .App {
   display: flex;
@@ -100,21 +101,25 @@ p {
   color: #ffffff;
 }
 .widecard {
-  border: 0px solid #9a9b9c;
+  background-color: #242526;
+  border-radius: 0.25rem;
   display: flex;
   justify-content: space-between;
   margin: 30px 0px 30px 0px;
+  background: linear-gradient(to bottom left, #242526 40%, #18191a 100%);
 }
 
 .widecard:hover {
-  color: #1b1d20;
-  background-color: #ffffff;
+  background-color: #242526;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.education-text {
+  margin: 1rem;
 }
 .school-logo {
   width: 125px;
   height: auto;
-  margin-right: 1rem;
+  margin: 1rem;
 }
 
 /* Skill Card Styling */
@@ -132,17 +137,22 @@ p {
   margin-top: 1em;
 }
 .skill-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
 }
 
 .skill-card {
   border: 0px solid #9a9b9c;
+  border-radius: 0.25rem;
+  background: linear-gradient(to bottom left, #242526 40%, #18191a 100%);
   margin: 1rem;
+  padding: 1rem;
+  width: 120px;
+  height: auto;
 }
 .skill-card:hover {
-  color: #3498db;
   background-color: #242526;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -211,10 +221,13 @@ img {
 .card {
   background-color: #242526;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .card_content {
@@ -243,21 +256,6 @@ img {
 
 .active {
   font-weight: bolder;
-}
-
-@media all and (max-width: 600px) {
-  .skill-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
-  }
-}
-@media all and (max-width: 900px) {
-  .skill-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 1fr;
-  }
 }
 
 @media all and (max-width: 450px) {

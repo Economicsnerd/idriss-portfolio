@@ -5,8 +5,7 @@ export class SkillCard extends Component {
         return (
                 <div className="skill-card">
                     <img src={this.props.proIcon} alt="Programming language icon" className="pro-icon"/>
-                    <h4 className="skill-title">{this.props.title}</h4>
-                    <h4 className="secondtext">{this.props.description}</h4>
+                    <h3 className="skill-title">{this.props.title}</h3>
                 </div>
         )
     }

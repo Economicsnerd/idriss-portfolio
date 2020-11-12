@@ -10,13 +10,10 @@ export class ProjectCard extends Component {
                     </div>                    
                     <div className="card_content">
                         <h2 className="card_title">{this.props.title}</h2>
-                        <p className="card_text">{this.props.description}</p>
-                        
-                            <a href={this.props.projectURL}>
-                            <button className="btn card_btn">
-                                See Project
-                                </button></a>
-                        
+                        <p className="card_text">{this.props.description}</p> 
+                        <a href={this.props.projectURL}>
+                        <button className="btn card_btn">See Project</button>
+                        </a>                        
                     </div>                    
                 </div>
         )

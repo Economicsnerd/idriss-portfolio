@@ -4,7 +4,7 @@ export class Card extends Component {
     render() {
         return (
             <div className="widecard">        
-                    <div className="compdetfle">
+                    <div className="compdetfle education-text">
                     <h3>{this.props.title}</h3>
                     <h4 className="secondtext">{this.props.where}</h4>
                     <h4 className="secondtext">{this.props.from} - {this.props.to}</h4>
