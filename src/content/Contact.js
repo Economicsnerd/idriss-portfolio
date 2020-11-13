@@ -9,7 +9,7 @@ export class Contact extends Component {
                     <h1 className="subtopic">Contact Me</h1>
                     <div className="widecard">
                         <div className="education-text">
-                            <h3>Email   :   email@email.com</h3>
+                            <h3>Email   :   idrisscodes@gmail.com</h3>
                             <h3>Instagram   :   @economicsnerd</h3>
                         </div>
                         <img src={Gmail} alt="Gmail icon" className="school-logo"/>                        

@@ -5,7 +5,6 @@ export class About extends Component {
         return (
             <div className="condiv">
                 <h1 className="subtopic">About Me</h1>
-
                 <h1>My name is Idriss</h1>
                 <h3>Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
                 <br></br>
